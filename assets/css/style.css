@@ -8,7 +8,7 @@ header {
     font-family: Georgia, Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     width: 300px;
     height: 65px;
     text-align: center;
@@ -16,13 +16,7 @@ header {
     padding-top: 25px;
 } 
 
-hr {
-    border-width: 1px;
-    color: #cccccc;
-    border-style: solid;
-}
-
-#top {
+.top {
     background-color:#ffffff;
     height: 90px;
     width: 100%;
@@ -33,17 +27,22 @@ hr {
 ul {
     list-style-type: none;
     float: right;
-    margin-right: 180px;
+    margin-right: 220px;
     font-family: Georgia, Times, Times New Roman, serif;
     font-size: 18px;
     color: #777777;
-    margin-top: 30px;
+    margin-top: 33px;
 }
 
 li {
     display: inline;
     border-right: 1px solid #cccccc;
     padding: 5px;
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
 }
 
 li:last-child {
@@ -53,34 +52,97 @@ li:last-child {
 h1 {
     font-family: Georgia, Times, Times New Roman, serif;
     color: #4aaaa5;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border-width: 1.5px;
+    color: #cccccc;
+    border-style: solid;
+    margin-bottom: 20px;
 }
  
 #olgaMain {
-    width: 250px;
+    width: 260px;
     float: left;
     margin-right: 20px;
-    margin-top: 10px;
 }
 
-#main {
+.main {
     background-color: #ffffff;
-    width: 1000px;
+    width: 960px;
     height: 475px;
     margin-left: 220px;
     margin-top: 50px;
     padding: 20px;
-    color: #777777;
-    border: solid;
+    border: 1px solid;
     border-color: #dddddd;
 }
 
-#blue {
+#portfolioMain {
+    background-color: #ffffff;
+    width: 960px;
+    height: 500px;
+    margin-left: 220px;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid;
+    border-color: #dddddd;
+}
+
+p {
+    font-size: 18px;
+    color: #777777;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: Georgia, Times, Times New Roman, serif;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    background-color: #4aaaa5;
+    position: absolute;
+    z-index: 1;
+    margin-top: 150px;
+    padding-top: 10px;
+}
+
+.placeholder {
+    z-index: 0;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    font-size: 16px;
+    color: #777777;
+}
+
+input {
+    width: 945px;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+
+textarea {
+    width: 950px;
+    height: 200px;
+    margin-top: 8px;
+}
+
+.blue {
     background-color: #4aaaa5;
     height: 10px;
     margin-top: 50px;
 }
 
-#footer {
+.footer {
     background-color: #666666;
-    height: 100px;
+    height: 75px;
 }
